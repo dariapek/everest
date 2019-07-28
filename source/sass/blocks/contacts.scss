@@ -1,0 +1,13 @@
+@media (min-width: $tablet-width) {
+  .contacts {
+    line-height: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}

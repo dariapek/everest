@@ -1,0 +1,129 @@
+.features {
+  padding-bottom: 80px;
+  background-color: $white;
+}
+
+.features__title {
+  @include defaults;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.features__subtitle {
+  @include defaults;
+  margin-bottom: 3px;
+}
+
+.features__desc {
+  @include defaults;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #4F4F4F;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features .features__item.slick-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.features__image {
+  margin-bottom: 25px;
+  width: 60px;
+}
+
+.features .slick-dots li button:before {
+  content: "";
+  border: 2px solid #5673CE;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.features .slick-dots li.slick-active button:before {
+  background-color: #5673CE;
+}
+
+@media (min-width: $tablet-width) {
+  .features {
+    padding-bottom: 0;
+  }
+
+  .features__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .features__item {
+    max-width: 166px;
+    text-align: center;
+    margin: 0 10px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .features__title {
+    margin-bottom: 72px;
+    padding-top: 57px;
+  }
+
+  .features__image {
+    min-height: 64px;
+    width: 64px;
+  }
+
+  .features__subtitle {
+    margin-bottom: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: $black;
+    min-height: 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .features {
+    padding-bottom: 53px;
+  }
+
+  .features__title {
+    padding-top: 97px;
+    margin-bottom: 118px;
+  }
+
+  .features__item {
+    max-width: 280px;
+  }
+
+  .features__image {
+    width: 90px;
+    min-height: 90px;
+    margin-bottom: 12px;
+  }
+
+  .features__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: $black;
+    min-height: 60px;
+  }
+
+  .features__desc {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}

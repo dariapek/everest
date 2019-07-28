@@ -1,0 +1,52 @@
+.user-nav {
+  margin-top: -2px;
+}
+
+.user-nav__list {
+  display: none;
+}
+
+.user-nav__toggle {
+  border: none;
+  background-color: $white;
+}
+
+@media (min-width: $desktop-width) {
+  .user-nav__toggle {
+    display: none;
+  }
+
+  .user-nav__list {
+    @include defaults;
+    display: flex;
+    list-style: none;
+    width: 280px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+  }
+
+  .user-nav__item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    width: 130px;
+    box-shadow: 0px 8px 20px rgba(92, 168, 255, 0.3);
+    border-radius: 90px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+  }
+
+  .user-nav__item--sign-up {
+    color: $white;
+    background-color: $main-blue;
+  }
+
+  .user-nav__item--log-in {
+    color: $semi-black;
+    background-color: $white;
+  }
+}

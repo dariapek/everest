@@ -1,0 +1,31 @@
+.exchange {
+  background-color: $beige;
+}
+
+.exchange_container {
+    padding-top: 30px;
+}
+
+.exchange_title {
+  margin-bottom: 15px;
+}
+
+@media (min-width: $tablet-width) {
+  .exchange_container {
+    padding-top: 55px;
+  }
+
+  .exchange_title {
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .exchange_container {
+    padding-top: 83px;
+  }
+
+  .exchange_title {
+    margin-bottom: 47px;
+  }
+}

@@ -1,0 +1,19 @@
+.copyright__text {
+  @include defaults;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #BDBDBD;
+}
+
+@media (min-width: $tablet-width) {
+  .copyright__text {
+    text-align: left;
+    padding-left: 22px;
+    padding-top: 27px;
+    padding-bottom: 35px;
+    border-top: 1px solid #E5E5E5;
+    line-height: 16px;
+  }
+}

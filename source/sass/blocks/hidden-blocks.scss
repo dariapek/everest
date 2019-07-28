@@ -1,0 +1,17 @@
+.hidden {
+  display: none;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .desktop-hidden {
+    display: none;
+  }
+
+  .mobile-hidden {
+    display: block;
+  }
+}

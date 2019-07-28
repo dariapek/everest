@@ -1,0 +1,39 @@
+.social {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .social {
+    display: block;
+  }
+
+  .social__list {
+    @include defaults;
+    list-style: none;
+    display: flex;
+    max-width: 190px;
+    justify-content: space-between;
+  }
+
+  .social__link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .social__link--fb {
+    background-image: url("../img/facebook-icon.svg");
+  }
+
+  .social__link--twitter {
+    background-image: url("../img/twitter-icon.svg");
+  }
+
+  .social__link--inst {
+    background-image: url("../img/instagram-icon.svg");
+  }
+}

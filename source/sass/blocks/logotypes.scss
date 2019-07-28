@@ -1,0 +1,54 @@
+.logotypes__item--encryption {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .logotypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .logotypes__item {
+    position: relative;
+    max-width: 88px;
+    max-height: 30px;
+  }
+
+  .logotypes__item--master-card {
+    width: 46px;
+    height: 30px;
+    background-image: url("../img/logo-master-card.jpg");
+  }
+
+  .logotypes__item--visa {
+    width: 46px;
+    height: 30px;
+    background-image: url("../img/logo-visa.jpg");
+  }
+
+  .logotypes__item--paypal {
+    width: 46px;
+    height: 30px;
+    background-image: url("../img/logo-pay-pal.jpg");
+  }
+
+  .logotypes__item--cloudflare {
+    width: 88px;
+    height: 30px;
+    background-image: url("../img/logo-cloudflare.jpg");
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logotypes {
+    max-width: 488px;
+  }
+  .logotypes__item--encryption {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/logo-encryption.jpg");
+    background-size: contain;
+  }
+}
