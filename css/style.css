@@ -707,6 +707,15 @@ input[type='radio'].visually-hidden
     padding-left: 10px;
 }
 
+.page-header--circle
+{
+    max-width: 100%; 
+
+    background-image: url('../img/header-circle-mobile.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
 @media (min-width: 768px)
 {
     .page-header__logo-link
@@ -714,6 +723,14 @@ input[type='radio'].visually-hidden
         width: 204px;
         height: 26px; 
         padding-left: 0;
+    }
+    .page-header--circle
+    {
+        max-width: 100%; 
+
+        background-image: url('../img/circle-header-tablet.png');
+        background-repeat: no-repeat;
+        background-position: top right;
     }
 }
 
@@ -734,6 +751,12 @@ input[type='radio'].visually-hidden
             -ms-flex-align: center;
 
                 align-items: center;
+    }
+    .page-header--circle
+    {
+        background-image: url('../img/header-circle-desk.svg');
+        background-repeat: no-repeat;
+        background-position: top right;
     }
 }
 
@@ -1919,6 +1942,13 @@ input[type='radio'].visually-hidden
             order: 1;
 }
 
+.our-app--circle
+{
+    background-image: url('../img/circle-our-app-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center -284px;
+}
+
 @media (min-width: 768px)
 {
     .our-app__container
@@ -1964,6 +1994,12 @@ input[type='radio'].visually-hidden
 
         text-align: left;
     }
+    .our-app--circle
+    {
+        background-image: url('../img/circle-our-app-tablet.png');
+        background-repeat: no-repeat;
+        background-position: 97px -801px;
+    }
 }
 
 @media (min-width: 1220px)
@@ -1995,6 +2031,12 @@ input[type='radio'].visually-hidden
         line-height: 40px;
 
         margin-bottom: 95px;
+    }
+    .our-app--circle
+    {
+        background-image: url('../img/circle-our-app-desk.png');
+        background-repeat: no-repeat;
+        background-position: center -890px;
     }
 }
 
@@ -2166,6 +2208,11 @@ input[type='radio'].visually-hidden
 .page-footer__links-wrapper
 {
     margin-bottom: 30px;
+}
+
+.page-footer__logo img
+{
+    height: 20px;
 }
 
 @media (min-width: 768px)
@@ -2367,6 +2414,10 @@ input[type='radio'].visually-hidden
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
+    }
+    .page-footer__logo img
+    {
+        height: 26px;
     }
 }
 
