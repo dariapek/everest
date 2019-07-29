@@ -713,7 +713,7 @@ input[type='radio'].visually-hidden
 
     background-image: url('../img/header-circle-mobile.png');
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top center;
 }
 
 @media (min-width: 768px)
@@ -730,7 +730,7 @@ input[type='radio'].visually-hidden
 
         background-image: url('../img/circle-header-tablet.png');
         background-repeat: no-repeat;
-        background-position: top right;
+        background-position: top center;
     }
 }
 
@@ -756,7 +756,7 @@ input[type='radio'].visually-hidden
     {
         background-image: url('../img/header-circle-desk.svg');
         background-repeat: no-repeat;
-        background-position: top right;
+        background-position: top center;
     }
 }
 
@@ -1946,7 +1946,7 @@ input[type='radio'].visually-hidden
 {
     background-image: url('../img/circle-our-app-mobile.png');
     background-repeat: no-repeat;
-    background-position: center -284px;
+    background-position: center bottom;
 }
 
 @media (min-width: 768px)
@@ -1998,7 +1998,7 @@ input[type='radio'].visually-hidden
     {
         background-image: url('../img/circle-our-app-tablet.png');
         background-repeat: no-repeat;
-        background-position: 97px -801px;
+        background-position: center bottom;
     }
 }
 
@@ -2036,7 +2036,7 @@ input[type='radio'].visually-hidden
     {
         background-image: url('../img/circle-our-app-desk.png');
         background-repeat: no-repeat;
-        background-position: center -890px;
+        background-position: center bottom;
     }
 }
 
