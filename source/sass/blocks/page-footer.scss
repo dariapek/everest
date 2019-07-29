@@ -56,6 +56,10 @@
   margin-bottom: 30px;
 }
 
+.page-footer__logo img {
+  height: 20px;
+}
+
 @media (min-width: $tablet-width) {
   .page-footer__container {
     padding: 0;
@@ -211,5 +215,9 @@
   .page-footer__columns--second {
     display: flex;
     flex-direction: column;
+  }
+
+  .page-footer__logo img {
+    height: 26px;
   }
 }

@@ -43,6 +43,12 @@
   order: 1;
 }
 
+.our-app--circle {
+  background-image: url("../img/circle-our-app-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center -284px;
+}
+
 @media (min-width: $tablet-width) {
   .our-app__container {
     flex-direction: row;
@@ -69,6 +75,12 @@
     line-height: 40px;
     margin-bottom: 64px;
   }
+
+  .our-app--circle {
+    background-image: url("../img/circle-our-app-tablet.png");
+    background-repeat: no-repeat;
+    background-position: 97px -801px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -91,5 +103,11 @@
     font-size: 24px;
     line-height: 40px;
     margin-bottom: 95px;
+  }
+
+  .our-app--circle {
+    background-image: url("../img/circle-our-app-desk.png");
+    background-repeat: no-repeat;
+    background-position: center -890px;
   }
 }
